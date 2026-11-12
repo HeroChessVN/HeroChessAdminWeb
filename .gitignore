@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Vite cache (dep pre-bundling) — generated, không được commit
+.vite/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Temp logs & debug output
+_tmp_*
+*.log
+
+# Test output
+coverage/
+.nyc_output/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
